@@ -113,6 +113,14 @@ img {
 
 .solutions-header-button {
   background: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
