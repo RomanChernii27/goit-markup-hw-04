@@ -120,7 +120,6 @@ img {
     url(/images/people-office-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
@@ -188,6 +187,20 @@ img {
 .advantages-menu-list {
   width: calc((100% - 72px) / 4);
 }
+.advantages-icon {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+}
+
+.icon-advantages {
+  width: 64px;
+  height: 64px;
+  margin: 24px 100px;
+}
+
 .advantages-menu-item {
   color: #2e2f42;
   font-size: 20px;
@@ -257,6 +270,26 @@ img {
   letter-spacing: 0.02em;
   display: block;
   text-align: center;
+}
+
+.menu-team-icon {
+  display: flex;
+  text-align: center;
+}
+
+.team-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% 50%;
+  background-color: #4d5ae5;
+  display: flex;
+}
+
+.icons-team {
+  width: 16px;
+  height: 16px;
+  margin: 12px;
+  fill: #fff;
 }
 
 .team-image {
