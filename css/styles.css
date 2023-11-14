@@ -274,7 +274,9 @@ img {
 
 .menu-team-icon {
   display: flex;
-  text-align: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
 }
 
 .team-icon {
@@ -282,7 +284,6 @@ img {
   height: 40px;
   border-radius: 50% 50%;
   background-color: #4d5ae5;
-  display: flex;
 }
 
 .icons-team {
