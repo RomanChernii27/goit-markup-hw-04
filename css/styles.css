@@ -361,6 +361,18 @@ img {
   padding-bottom: 100px;
 }
 
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo-flex {
+  margin-right: 120px;
+}
+
+.footer-icon-flex {
+}
+
 .footer-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -391,11 +403,16 @@ img {
 
 .footer-icon-heaader {
   color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .footer-team-icon {
   display: flex;
-  margin-top: 16px;
+  gap: 16px;
 }
 
 .footer-icon {
