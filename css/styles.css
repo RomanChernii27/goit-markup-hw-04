@@ -187,9 +187,6 @@ img {
 }
 
 .container.advantages-hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .visually-hidden {
@@ -218,6 +215,9 @@ img {
   border: 1px solid #8e8f99;
   background: #f4f4fd;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-advantages {
